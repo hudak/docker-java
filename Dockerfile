@@ -12,3 +12,6 @@ RUN add-apt-repository ppa:webupd8team/java
 RUN apt-get -y update
 RUN echo "oracle-java7-installer  shared/accepted-oracle-license-v1-1 boolean true" | debconf-set-selections
 RUN apt-get -y install oracle-java7-installer
+
+# Set Java Home Diectory
+ENV JAVA_HOME /usr/lib/jvm/java-7-oracle/
