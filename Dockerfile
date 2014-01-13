@@ -1,7 +1,6 @@
 FROM ubuntu:12.04
 
-MAINTAINER Andrey Popelo andrey@popelo.com
-
+MAINTAINER Nick Hudak nhudak@pentaho.com
 
 # update packages
 RUN apt-get -y update
